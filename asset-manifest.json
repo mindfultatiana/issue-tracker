@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/issue-tracker/static/css/main.93d94c4f.css",
+    "main.js": "/issue-tracker/static/js/main.1460fc66.js",
+    "static/js/453.4c1d961e.chunk.js": "/issue-tracker/static/js/453.4c1d961e.chunk.js",
+    "index.html": "/issue-tracker/index.html",
+    "main.93d94c4f.css.map": "/issue-tracker/static/css/main.93d94c4f.css.map",
+    "main.1460fc66.js.map": "/issue-tracker/static/js/main.1460fc66.js.map",
+    "453.4c1d961e.chunk.js.map": "/issue-tracker/static/js/453.4c1d961e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93d94c4f.css",
+    "static/js/main.1460fc66.js"
+  ]
+}
