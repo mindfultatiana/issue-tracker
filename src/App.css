@@ -36,3 +36,200 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 1rem 0;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: #555;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.header nav a:hover {
+  background-color: #777;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 2rem;
+}
+
+.issues-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.issues-table th,
+.issues-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.issues-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.issues-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}
+
+.status-new { background-color: #e3f2fd; color: #1976d2; }
+.status-accepted { background-color: #f3e5f5; color: #7b1fa2; }
+.status-reviewed { background-color: #fff3e0; color: #f57c00; }
+.status-started { background-color: #e8f5e8; color: #388e3c; }
+.status-closed { background-color: #ffebee; color: #d32f2f; }
+
+.issue-info {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.issue-info h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #007cba;
+  padding-bottom: 0.5rem;
+}
+
+.summary {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  line-height: 1.6;
+}
+
+.status-select {
+  margin-left: 0.5rem;
+  padding: 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007cba;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.issue-form {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-actions button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-actions button:hover {
+  background-color: #005a8b;
+}
+
+.cancel-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #6c757d;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.cancel-link:hover {
+  background-color: #545b62;
+}
+
+a {
+  color: #007cba;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
